@@ -25,10 +25,16 @@
 
 .centre{
   flex: 4;
+  display: flex;
 }
 
 .search{
   flex: 2;
+}
+.search input{
+  padding: 10px;
+  width: 15rem;
+  border-radius: 5px;
 }
 
 .right{
@@ -47,6 +53,7 @@
 }
 .menimages{
   display: flex;
+  gap: 10px;
 }
 .menimages img{
   width: 225px;
