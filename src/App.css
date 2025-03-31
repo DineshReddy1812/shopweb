@@ -11,6 +11,7 @@ body{
 .headersection{
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .centre ul li {
@@ -21,16 +22,26 @@ body{
 
 .left{
   flex : 2;
+  border: 1px solid black;
 }
 
 .centre{
   flex: 4;
+  border: 1px solid black;
+
 }
 
 .search{
   flex: 2;
+  border: 1px solid black;
+
 }
 
 .right{
   flex: 2;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+
 }
