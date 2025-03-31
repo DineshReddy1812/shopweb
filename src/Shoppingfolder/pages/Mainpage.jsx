@@ -3,7 +3,6 @@
 
 import React , {useState} from 'react'
 import Header from '../components/Header'
-import Banner from '../components/Banner'
 import Collections from '../components/Collections'
 import Footer from '../components/Footer'
 import {Gents,Ladies} from '../data'
@@ -16,7 +15,6 @@ const Mainpage =() =>{
   return (
     <div>
           <Header/>
-          <Banner />
           <Collections gentsFashion = {gentsfashion}/>
           <Womancollections ladiesFashion={ladiesFashion}/>
           <Footer />

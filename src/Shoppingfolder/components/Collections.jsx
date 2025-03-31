@@ -10,6 +10,10 @@ const Collections = (props) => {
   return (
     <div className='collectionSection'>
       <h2>{title}</h2>
+        <div className="bannerbox">
+            <img src='assets/GentsBanner.gif' alt='banner'/>
+        </div>
+    
 
       <div className="menimages">
         <img src={image1} alt={title} />
