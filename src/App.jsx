@@ -1,7 +1,7 @@
 
 import React from 'react'
 import './App.css'
-import Mainpage from './pages/Mainpage'
+import Mainpage from './Shoppingfolder/pages/Mainpage'
 
 const App = () => {
   return (
