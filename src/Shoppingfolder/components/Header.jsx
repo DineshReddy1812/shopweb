@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <div className='headersection'>
         <div className="left">
-            <div className="tittle">
-                <h3>Shooping Mall</h3>
+            <div className="title">
+                <img src='assets/logo.png' alt='logo'/>
             </div>
         </div>
         <div className="centre">

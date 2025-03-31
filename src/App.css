@@ -21,15 +21,24 @@
 
 .left{
   flex : 2;
+  justify-content: center;
+}
+.left img{
+  width: 120px;
+  height: 50px;
+
 }
 
 .centre{
   flex: 4;
   display: flex;
+  padding-top: 12px;
 }
 
 .search{
   flex: 2;
+  padding-top: 10
+  px;
 }
 .search input{
   padding: 10px;
@@ -43,6 +52,12 @@
   justify-content: space-between;
   padding: 0px 10px;
 
+}
+.signin{
+  padding-top: 12px;
+}
+.cart{
+  padding-top: 12px;
 }
 .bannerbox img{
   width: 100%;
@@ -67,3 +82,4 @@
   height: 150px;
   margin: 10px;
 }
+
